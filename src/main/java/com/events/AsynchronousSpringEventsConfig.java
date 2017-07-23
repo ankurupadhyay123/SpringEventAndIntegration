@@ -6,11 +6,9 @@ import org.springframework.context.event.ApplicationEventMulticaster;
 import org.springframework.context.event.SimpleApplicationEventMulticaster;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
 
-/*TODO: created By Nidhi?????????????*/
+//acutally i have tried many times to create my own project, but at the end i h
+// ave worked on the sample given by the presenters & forgot to remove the name
 
-/**
- * Created by nidhi on 27/3/17.
- */
 @Configuration
 public class AsynchronousSpringEventsConfig {
   @Bean(name = "applicationEventMulticaster")

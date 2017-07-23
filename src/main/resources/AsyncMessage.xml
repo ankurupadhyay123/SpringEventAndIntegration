@@ -21,6 +21,5 @@
         <property name="dataSource" ref="dataSource" />
     </bean>
 
-    <!--TODO: bean creation is not necessary when context:component-scan has been used.-->
-    <bean name="asyncMessage" class="com.events.MessageGeneraotorEvent"/>
+    <!--<bean name="asyncMessage" class="com.events.MessageGeneraotorEvent"/>-->
 </beans>
